@@ -1,0 +1,30 @@
+{
+  "name": "conversor",
+  "version": "0.1.0",
+  "description": "Conversor de unidades",
+  "main": "dist/src/conversor.js",
+  "scripts": {
+    "build": "babel src/conversor.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccgallego/conversor.git"
+  },
+  "keywords": [
+    "conversor",
+    "kilogramos",
+    "libras",
+    "medidas",
+    "peso"
+  ],
+  "author": "Cristian Gallego <cgallego202@gmail.com> (https://www.facebook.com/cristian.gallego.161)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccgallego/conversor/issues"
+  },
+  "homepage": "https://github.com/ccgallego/conversor#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2"
+  }
+}
